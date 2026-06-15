@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="jiit-logo.png" alt="JIIT Logo" class="logo">
+
+        <div class="title-section">
+            <h1>JIIT Student Management System</h1>
+            <p>Student Record Management Portal</p>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Add Student</h2>
+
+            <input type="number" id="rollNo" placeholder="Roll Number">
+            <input type="text" id="name" placeholder="Student Name">
+            <input type="number" id="age" placeholder="Age">
+
+            <button class="add-btn" onclick="addStudent()">
+                Add Student
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Search Student</h2>
+
+            <input type="number" id="searchRoll"
+                   placeholder="Enter Roll Number">
+
+            <button class="search-btn" onclick="searchStudent()">
+                Search
+            </button>
+
+            <div id="searchResult"></div>
+        </div>
+
+    </div>
+
+    <div class="table-section">
+        <h2>Student Records</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody id="studentTable"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+<footer>
+    <p>Developed by Pranay Rawat</p>
+</footer>
+</html>
