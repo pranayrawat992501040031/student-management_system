@@ -1,6 +1,6 @@
 # 🎓 JIIT Student Management System
 
-> A Student Management System developed in **C++** and **Web Technologies** to manage student records efficiently through both console-based and graphical interfaces.
+ A Student Management System developed in **C++** and **Web Technologies** to manage student records efficiently through both console-based and graphical interfaces.
 
 ![HTML](https://img.shields.io/badge/HTML5-Frontend-orange)
 ![CSS](https://img.shields.io/badge/CSS3-Styling-blue)
