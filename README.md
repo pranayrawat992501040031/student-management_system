@@ -68,11 +68,6 @@ JIIT-Student-Management-System
 
 ---
 
-## 🖼️ Project Preview
-
-### Web Version
-
-📌 Add screenshots here after uploading:
 
 ```text
 assets/
